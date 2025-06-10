@@ -86,7 +86,7 @@
 
       function connectWebSocket() {
         status.textContent = "Status: Connecting...";
-        ws = new WebSocket(`wss:///detection-waste.onrender.com/ws`);
+        ws = new WebSocket(`wss://detection-waste.onrender.com/ws`);
 
         ws.onopen = () => {
           status.textContent = "Status: Connected";
